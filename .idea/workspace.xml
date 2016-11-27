@@ -48,8 +48,8 @@
       <file leaf-file-name="foodchengfen.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/foodchengfen.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+            <state relative-caret-position="120">
+              <caret line="4" column="76" selection-start-line="4" selection-start-column="76" selection-end-line="4" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -150,6 +150,7 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/js/direction.js" />
         <option value="$PROJECT_DIR$/../../../dayi/webpick/package.json" />
+        <option value="$PROJECT_DIR$/html/foodchengfen.html" />
       </list>
     </option>
   </component>
@@ -395,12 +396,12 @@
       <workItem from="1479109730387" duration="8146000" />
       <workItem from="1480125905470" duration="1119000" />
       <workItem from="1480131835453" duration="3130000" />
-      <workItem from="1480246328319" duration="1716000" />
+      <workItem from="1480246328319" duration="2188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50810000" />
+    <option name="totallyTimeSpent" value="51282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1932" height="1047" extended-state="0" />
@@ -842,8 +843,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/foodchengfen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        <state relative-caret-position="120">
+          <caret line="4" column="76" selection-start-line="4" selection-start-column="76" selection-end-line="4" selection-end-column="76" />
           <folding />
         </state>
       </provider>

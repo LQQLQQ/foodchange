@@ -1,0 +1,42 @@
+<div id="sh_wrap" ng-controller="foodChoose">
+    <div class="mask-layer"></div>
+    <header class="header">
+        <h5>食物交换</h5>
+        <a href="javascript:;" class="L"></a>
+        <a href="javascript:;" class="R"><i></i><i></i><i></i></a>
+    </header>
+    <p class="chose">请选择需要交换的食材</p>
+    <div class="sh_t">
+        <p ng-click="gushulei()">
+            <span>食材分类</span>
+            <a href="javascript:;">{{ gushulei }}<i></i></a>
+        </p>
+        <p ng-click="dee($event)">
+            <span>选择食材</span>
+            <a href="javascript:;">{{ dee }}<i></i></a>
+        </p>
+        <p>
+            <span>输入重量</span>
+            <a href="javascript:;" class="g">200g</a>
+        </p>
+        <a href="javascript:;" class="sh_btn" ng-click="">换算</a>
+    </div>
+    <div class="sh_b">
+        <p class="sure">200克烧饼可交换</p>
+        <ul class="vag">
+            <li><img src="../images/sh_0503.png" alt=""></li>
+            <li><img src="../images/sh_0503.png" alt=""></li>
+            <li><img src="../images/sh_0503.png" alt=""></li>
+            <li><img src="../images/sh_0503.png" alt=""></li>
+            <li><img src="../images/sh_0503.png" alt=""></li>
+
+        </ul>
+        <p class="bean"><span>小麦</span><i>112.0g</i></p>
+        <p class="bean"><span>黄豆</span><i>982.0g</i></p>
+        <p class="bean"><span>小麦</span><i>102.3g</i></p>
+        <p class="bean"><span>黄豆</span><i>686.3g</i></p>
+        <p class="bean"><span>小麦</span><i>36.6.3g</i></p>
+        <p class="bean"><span>黄豆</span><i>112.0g</i></p>
+        <p class="bean"><span>小麦</span><i>68.6.3g</i></p>
+    </div>
+</div>

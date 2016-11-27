@@ -1,0 +1,160 @@
+{
+  "error":0,
+  "message":"请求失败",
+  "data":[
+  {"eval":1,
+  "some":"小麦",
+    "num":80,
+  "rang":"lower"
+  },
+{"eval":1,
+"some":"黄豆",
+"num":40,
+  "rang":"middle"
+},
+{"eval":1,
+"some":"小麦",
+"num":50,
+"rang":"middle"
+},
+{"eval":1,
+"some":"黄豆",
+"num":20,
+ "rang":"highter"
+},
+{"eval":1,
+"num":80,
+"some":"小麦",
+  "rang":"highter"
+},
+    {"eval":1,
+      "num":80,
+      "some":"小麦",
+      "rang":"middle"
+    },
+    {"eval":1,
+      "num":80,
+      "some":"小麦",
+      "rang":"highter"
+    },
+    {"eval":1,
+      "num":80,
+      "some":"小麦",
+      "rang":"highter"
+    },
+    {"eval":1,
+      "num":80,
+      "some":"小麦",
+      "rang":"highter"
+    },
+    {"eval":1,
+      "num":80,
+      "some":"小麦",
+      "rang":"highter"
+
+    },
+    {"eval":1,
+      "num":80,
+      "some":"小麦",
+      "rang":"highter"
+    },
+    {"eval":1,
+      "num":80,
+      "some":"小麦",
+      "rang":"highter"
+    },
+    {"eval":1,
+      "num":80,
+      "some":"小麦",
+      "rang":"highter"
+    },
+    {"eval":1,
+      "num":80,
+      "some":"小麦",
+      "rang":"highter"
+    },
+{"eval":1,
+"num":50,
+"some":"黄豆",
+  "rang":"highter"
+}
+],
+  "lei":[
+    {"eval":1,
+      "some":"古树",
+      "num":80,
+      "rang":"lower"
+    },
+    {"eval":1,
+      "some":"故书",
+      "num":40,
+      "rang":"middle"
+    },
+    {"eval":1,
+      "some":"古树",
+      "num":50,
+      "rang":"middle"
+    },
+    {"eval":1,
+      "some":"古树",
+      "num":20,
+      "rang":"highter"
+    },
+    {"eval":1,
+      "num":80,
+      "some":"古树",
+      "rang":"highter"
+    },
+    {"eval":1,
+      "num":80,
+      "some":"古树",
+      "rang":"middle"
+    },
+    {"eval":1,
+      "num":80,
+      "some":"古树",
+      "rang":"highter"
+    },
+    {"eval":1,
+      "num":80,
+      "some":"古树",
+      "rang":"highter"
+    },
+    {"eval":1,
+      "num":80,
+      "some":"古树",
+      "rang":"highter"
+    },
+    {"eval":1,
+      "num":80,
+      "some":"古树",
+      "rang":"highter"
+
+    },
+    {"eval":1,
+      "num":80,
+      "some":"古树",
+      "rang":"highter"
+    },
+    {"eval":1,
+      "num":80,
+      "some":"古树",
+      "rang":"highter"
+    },
+    {"eval":1,
+      "num":80,
+      "some":"古树",
+      "rang":"highter"
+    },
+    {"eval":1,
+      "num":80,
+      "some":"古树",
+      "rang":"highter"
+    },
+    {"eval":1,
+      "num":50,
+      "some":"古树",
+      "rang":"highter"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+
+$baseColor:#333333;
+@mixin rightArrow($bWidth: 1px,$color:#fff,$bgColor:$baseColor){
+  position: relative;
+  &:after{
+    content: '';
+    position: absolute;
+    border: 7px solid transparent;
+    border-left-width: 8px;
+    border-right-width: 8px;
+    border-left-color: $bgColor;
+    top: 50%;
+    margin: -6px 0 0 0;
+    right: 0;
+  }
+  &:before{
+    content: '';
+    position: absolute;
+    border: 7px solid transparent;
+    border-left-width: 8px;
+    border-right-width: 8px;
+    border-left-color: $color;
+    top: 50%;
+    margin: -6px 0 0 0;
+    right: -$bWidth;
+  }
+}
+@mixin leftArrow($bWidth: 6px,$color:#fff,$bgColor:$baseColor){
+
+  &:after{
+    content: '';
+    position: absolute;
+    border: 10px solid transparent;
+    border-right-width: 8px;
+    border-right-color: #333333;
+    top: 50%;
+    margin: -14px 0 0 0;
+    left: 0;
+  }
+  &:before{
+    content: '';
+    position: absolute;
+    border: 10px solid transparent;
+    border-right-width: 8px;
+    border-right-color: #fff;
+    top: 50%;
+    margin: -14px 0 0 0;
+    right:8px;
+  }
+}
+
+.cwrap{
+  width: 100%;
+  height: 100%;
+  .cheader{
+    width: 100%;
+    height: .91rem;
+   background:#292b37 ;
+    color:#fff;
+    position: relative;
+    .cleft-arrow{
+      width: 25px;
+      height: 37px;
+      position: absolute;
+      left: 3px;
+      top:18%;
+      @include leftArrow($bWidth: 1px,$color:#fff,$bgColor:$baseColor)
+    }
+    h1{
+      font-size: .35rem;
+      line-height:.91rem;
+      text-align: center;
+    }
+
+    span{
+      width: .56rem;
+      height: .23rem;
+      position: absolute;
+      right:13px ;
+      top:44%;
+      background: url("../images/c2.png") no-repeat;
+      background-size:contain;
+    }
+  }
+
+  .cmain{
+    width: 100%;
+    overflow-y:auto;
+    .csel{
+      height: .67rem;
+      background:#ebebeb ;
+      line-height: .67rem;
+      font-size: .26rem;
+      text-indent:15px;
+      color:$baseColor;
+    }
+
+    .clist{
+      width: 100%;
+      background: #fff;
+      li{
+        height: .87rem;
+        line-height: .87rem;
+        font-size: .29rem;
+        border-bottom: 1px solid #e6e6e6;
+        margin-left:15px;
+        span{
+          float:right;
+          padding-right: 15px;
+        }
+      }
+      .cspeed{
+        clear: both;
+      }
+      .cside{
+        @include rightArrow($bWidth: 1px,$color:$baseColor,$bgColor:#fff);
+        padding-right:30px;
+      }
+      .citem{
+        height: 1.4rem;
+        button{
+          margin:.45rem auto;
+          width: 80%;
+          height: .98rem;
+          background:#ea5042;
+          font-size: .31rem;
+          color:#fff;
+          border:none;
+          outline:none;
+          border-radius:20px;
+          display:block;
+        }
+      }
+    }
+
+    .cart{
+      width: 100%;
+      margin-top: 13px;
+      background: #fff;
+
+      .cactive{
+        font-size:.28rem ;
+        color:$baseColor;
+        line-height: .65rem;
+        text-indent:15px;
+      }
+      .cgroup{
+        width: 100%;
+        height: 1.42rem;
+        margin-left: 9px;
+        li{
+          float:left;
+          width: 1.22rem;
+          height: 1.03rem;
+          margin:.27rem 5px;
+        }
+      }
+    }
+
+  }
+}

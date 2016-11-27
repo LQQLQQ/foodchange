@@ -1,0 +1,29 @@
+
+<div class="gushu_wrapper" ng-controller="cerears">
+	<header>
+		<a href="javascript:;"></a>
+		<h2>谷薯类</h2>
+		<span></span>
+	</header>
+	<div class="seacher_btn">
+		<p><input type="text" ng-model="searchValue"><button ng-click="goFoodGI()">取消</button></p>
+	</div>
+	<main>
+		<div class="box">
+			<div class="content">
+				<div class="specific">
+					<ul>
+						<li  ng-click="goFoodGI(x)" ng-repeat="x in searchData"><a href="javascript:;">{{ x }}</a></li>
+						<!--<li><a href="javascript:;">稻麸</a></li>
+						<li><a href="javascript:;">大麦 (整粒,煮)</a></li>
+						<li><a href="javascript:;">面条 (强化蛋白质,细,煮)</a></li>
+						<li><a href="javascript:;">黑麦 (整粒煮)</a></li>
+						<li><a href="javascript:;">黑米粥</a></li>
+						<li><a href="javascript:;">荞麦 (黄)</a></li>
+						<li><a href="javascript:;">面条 (强化蛋白质,细,煮)</a></li>-->
+					</ul>
+				</div>
+			</div>
+		</div>
+	</main>
+</div>

@@ -1,0 +1,34 @@
+<div class="cwrap" ng-controller="energy">
+    <div class="mask-layer"></div>
+    <header class="cheader">
+        <i class="cleft-arrow"></i>
+        <h1>常见活动能量消耗转换</h1>
+        <span></span>
+    </header>
+    <main class="cmain">
+        <p class="csel">请选择身体活动项目</p>
+        <ul class="clist">
+            <li ng-click="select()">身体活动项目 <span class="cside" >{{ activeicties }}</span></li>
+            <li ng-click="select2($event)">项目内容 <span class="cside">{{ activeicties2 }}</span></li>
+            <li>活动时间 <span>20min</span></li>
+            <li class="citem"><button>换算</button></li>
+        </ul>
+        <article class="cart">
+            <p class="cactive">消耗58Kcal可转换其他活动项目为</p>
+            <ul class="cgroup">
+                <li><img src="../images/c1.png" alt=""></li>
+                <li><img src="../images/c1.png" alt=""></li>
+                <li><img src="../images/c1.png" alt=""></li>
+                <li><img src="../images/c1.png" alt=""></li>
+                <li><img src="../images/c1.png" alt=""></li>
+            </ul>
+            <ul class="clist">
+                <li>慢速（3km/h） <span>30min</span></li>
+                <li class="cspeed">中速（3km/h） <span>24min</span></li>
+                <li>快速（5.5-6km/h） <span>22min</span></li>
+                <li>很快 (7km/h）<span>32min</span></li>
+                <li>上楼<span>20min</span></li>
+            </ul>
+        </article>
+    </main>
+</div>
